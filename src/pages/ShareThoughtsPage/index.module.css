@@ -1,0 +1,16 @@
+.textarea{
+    width: 500px;
+    height: 180px;
+    resize: none;
+    
+}
+
+.container{
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+      
+}
