@@ -20,6 +20,9 @@ if(context.loggedIn){
                 <li>
                 <Link title='Profile' href='/profile' type='side' />
                 </li>
+                <li>
+                <Link title='Dev Page' href='/dev-page' type='side' />
+                </li>
                 
                 
             </ul>
@@ -40,6 +43,9 @@ if(context.loggedIn){
                 </li>
                 <li>
                 <Link title='Register' href='/register' type='side' />
+                </li>
+                <li>
+                <Link title='Dev Page' href='/dev-page' type='side' />
                 </li>
                 
             </ul>

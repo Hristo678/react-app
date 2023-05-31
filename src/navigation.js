@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import LoginPage from "./pages/LoginPage/login";
 import RegisterPage from "./pages/RegisterPage/register";
 import ProfilePage from "./pages/ProfilePage/profile";
+import DevPage from "./pages/DevPage/index";
 const Navigation = () => {
 
     return (
@@ -15,6 +16,7 @@ const Navigation = () => {
                 <Route path='/login' element={<LoginPage />} />
                 <Route path='/register' element={<RegisterPage />} />
                 <Route path='/profile' element={<ProfilePage />} />
+                <Route path="/dev-page" element={<DevPage />} />
             </Routes>
         </html>
 
